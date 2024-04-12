@@ -35,7 +35,7 @@ Edit values.yaml to include:
 replicaCount: 1
 
 image:
-  repository: ayihandocker/2-tier-flask-app
+  repository: ayihandocker/2-tier-flask-app:flask-app
   tag: flask-app
   pullPolicy: IfNotPresent
 
